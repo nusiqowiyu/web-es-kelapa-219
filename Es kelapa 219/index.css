@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Parkinsans:wght@300..800&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ overflow-x: hidden;
+ scrollbar-width: none;
+}
+body{
+  font-family: "Parkinsans", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+
+iframe{
+    border-radius: 2em;
+    border :none;
+    width: 350px;
+    height: 350px;
+    opacity: 0.7;
+    transition: 0.3 ease-in-out;
+}
+
+iframe:hover{
+    transform: scale(1,1);
+    opacity: 1;
+}
